@@ -26,6 +26,7 @@ There is no build step, package manager, or shared entry point.
 | [bubble-sort.py](bubble-sort.py)       | Bubble sort    |
 | [insertion-sort.py](insertion-sort.py) | Insertion sort |
 | [stack.py](stack.py)                   | Stack          |
+| [queue.py](queue.py)                   | Queue          |
 
 ## Conventions
 
