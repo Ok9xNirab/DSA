@@ -18,11 +18,12 @@ There is no build step, package manager, or shared entry point.
 
 ## Contents
 
-| File | Topic |
-| --- | --- |
-| [linear-search.py](linear-search.py) | Linear search |
-| [binary-search.py](binary-search.py) | Binary search |
+| File                                   | Topic          |
+| -------------------------------------- | -------------- |
+| [linear-search.py](linear-search.py)   | Linear search  |
+| [binary-search.py](binary-search.py)   | Binary search  |
 | [selection-sort.py](selection-sort.py) | Selection sort |
+| [bubble-sort.py](bubble-sort.py)       | Bubble sort    |
 
 ## Conventions
 
