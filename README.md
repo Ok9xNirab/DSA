@@ -18,15 +18,17 @@ There is no build step, package manager, or shared entry point.
 
 ## Contents
 
-| File                                   | Topic          |
-| -------------------------------------- | -------------- |
-| [linear-search.py](linear-search.py)   | Linear search  |
-| [binary-search.py](binary-search.py)   | Binary search  |
-| [selection-sort.py](selection-sort.py) | Selection sort |
-| [bubble-sort.py](bubble-sort.py)       | Bubble sort    |
-| [insertion-sort.py](insertion-sort.py) | Insertion sort |
-| [stack.py](stack.py)                   | Stack          |
-| [queue.py](queue.py)                   | Queue          |
+| File                                           | Topic              |
+| ---------------------------------------------- | ------------------ |
+| [linear-search.py](linear-search.py)           | Linear search      |
+| [binary-search.py](binary-search.py)           | Binary search      |
+| [selection-sort.py](selection-sort.py)         | Selection sort     |
+| [bubble-sort.py](bubble-sort.py)               | Bubble sort        |
+| [insertion-sort.py](insertion-sort.py)         | Insertion sort     |
+| [stack.py](stack.py)                           | Stack              |
+| [queue.py](queue.py)                           | Queue              |
+| [linked_list.py](linked_list.py)               | Linked List        |
+| [double_linked_list.py](double_linked_list.py) | Double Linked List |
 
 ## Conventions
 
