@@ -24,6 +24,7 @@ There is no build step, package manager, or shared entry point.
 | [binary-search.py](binary-search.py)   | Binary search  |
 | [selection-sort.py](selection-sort.py) | Selection sort |
 | [bubble-sort.py](bubble-sort.py)       | Bubble sort    |
+| [insertion-sort.py](insertion-sort.py) | Insertion sort |
 
 ## Conventions
 
