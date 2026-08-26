@@ -6,6 +6,6 @@ def selection_sort(arr):
             if arr[j] < arr[min_index]:
                 min_index = j
         arr[i], arr[min_index] = arr[min_index], arr[i]
-        print(f"Step {i}: {min_index}")
+    return arr
 
-selection_sort([64, 25, 12, 22, 11])
+print(selection_sort([64, 25, 12, 22, 11]))
