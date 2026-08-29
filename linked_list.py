@@ -56,13 +56,14 @@ class linked_list:
             current_node = current_node.next
         print("None")
 
-linked_list_instance = linked_list()
-linked_list_instance.append(1)
-linked_list_instance.append(2)
-linked_list_instance.display()  # Output: 1 -> 2 -> None
-linked_list_instance.prepend(0)
-linked_list_instance.display()  # Output: 0 -> 1 -> 2 -> None
-linked_list_instance.insert(1, 1.5)
-linked_list_instance.display()  # Output: 0 -> 1 -> 1.5 -> 2 -> None
-linked_list_instance.remove(1.5)
-linked_list_instance.display()  # Output: 0 -> 1 -> 2 -> None
+if __name__ == "__main__":
+    linked_list_instance = linked_list()
+    linked_list_instance.append(1)
+    linked_list_instance.append(2)
+    linked_list_instance.display()  # Output: 1 -> 2 -> None
+    linked_list_instance.prepend(0)
+    linked_list_instance.display()  # Output: 0 -> 1 -> 2 -> None
+    linked_list_instance.insert(1, 1.5)
+    linked_list_instance.display()  # Output: 0 -> 1 -> 1.5 -> 2 -> None
+    linked_list_instance.remove(1.5)
+    linked_list_instance.display()  # Output: 0 -> 1 -> 2 -> None

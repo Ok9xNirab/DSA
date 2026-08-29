@@ -27,3 +27,6 @@ def binary_search():
         print(f"Element found at index: {result}")
     else:
         print("Element not found.")
+
+if __name__ == "__main__":
+    binary_search()

@@ -6,4 +6,5 @@ def bubble_sort(arr):
                 arr[j], arr[j + 1] = arr[j + 1], arr[j]
     return arr
 
-print(bubble_sort([64, 34, 25, 12, 22, 11, 90]))
+if __name__ == "__main__":
+    print(bubble_sort([64, 34, 25, 12, 22, 11, 90]))

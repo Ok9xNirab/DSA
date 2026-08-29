@@ -70,12 +70,13 @@ class double_linked_list():
             current_node = current_node.next
         print("None")
 
-double_linked_list_instance = double_linked_list()
-double_linked_list_instance.append(1)
-double_linked_list_instance.append(2)
-double_linked_list_instance.prepend(0)
-double_linked_list_instance.display()  # Output: 0 <-> 1 <-> 2 <-> None
-double_linked_list_instance.insert(1, 1.5)
-double_linked_list_instance.display()  # Output: 0 <-> 1 <-> 1.5 <-> 2 <-> None
-double_linked_list_instance.remove(1.5)
-double_linked_list_instance.display()  # Output: 0 <-> 1 <-> 2 <-> None
+if __name__ == "__main__":
+    double_linked_list_instance = double_linked_list()
+    double_linked_list_instance.append(1)
+    double_linked_list_instance.append(2)
+    double_linked_list_instance.prepend(0)
+    double_linked_list_instance.display()  # Output: 0 <-> 1 <-> 2 <-> None
+    double_linked_list_instance.insert(1, 1.5)
+    double_linked_list_instance.display()  # Output: 0 <-> 1 <-> 1.5 <-> 2 <-> None
+    double_linked_list_instance.remove(1.5)
+    double_linked_list_instance.display()  # Output: 0 <-> 1 <-> 2 <-> None

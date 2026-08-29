@@ -21,9 +21,10 @@ class stack():
     def size(self):
         return len(self.items)
 
-stack_instance = stack()
-stack_instance.push(1)
-stack_instance.push(2)
-print(stack_instance.pop())  # Output: 2
-print(stack_instance.peek())  # Output: 1
-print(stack_instance.size())  # Output: 1
+if __name__ == "__main__":
+    stack_instance = stack()
+    stack_instance.push(1)
+    stack_instance.push(2)
+    print(stack_instance.pop())  # Output: 2
+    print(stack_instance.peek())  # Output: 1
+    print(stack_instance.size())  # Output: 1

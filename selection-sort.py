@@ -8,4 +8,5 @@ def selection_sort(arr):
         arr[i], arr[min_index] = arr[min_index], arr[i]
     return arr
 
-print(selection_sort([64, 25, 12, 22, 11]))
+if __name__ == "__main__":
+    print(selection_sort([64, 25, 12, 22, 11]))

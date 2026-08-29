@@ -19,4 +19,5 @@ def linear_search():
     else:
         print("Element not found.")
 
-linear_search()
+if __name__ == "__main__":
+    linear_search()

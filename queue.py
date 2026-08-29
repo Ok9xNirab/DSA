@@ -23,9 +23,10 @@ class queue():
     def size(self):
         return len(self.items)
 
-queue_instance = queue()
-queue_instance.enqueue(1)
-queue_instance.enqueue(2)
-print(queue_instance.dequeue())  # Output: 1
-print(queue_instance.peek())     # Output: 2
-print(queue_instance.size())     # Output: 1
+if __name__ == "__main__":
+    queue_instance = queue()
+    queue_instance.enqueue(1)
+    queue_instance.enqueue(2)
+    print(queue_instance.dequeue())  # Output: 1
+    print(queue_instance.peek())     # Output: 2
+    print(queue_instance.size())     # Output: 1
