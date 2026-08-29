@@ -29,6 +29,7 @@ There is no build step, package manager, or shared entry point.
 | [queue.py](queue.py)                           | Queue              |
 | [linked_list.py](linked_list.py)               | Linked List        |
 | [double_linked_list.py](double_linked_list.py) | Double Linked List |
+| [tree.py](tree.py)                             | Tree               |
 
 ## Conventions
 
